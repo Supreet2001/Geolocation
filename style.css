@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600); 
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  padding-right: 10px;
+} 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  background: #829292;
+  
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+.container{
+ 
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#browser {
+  margin:46px auto;
+  color: white;
+  width: 80%;
+  -webkit-box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+#browser-bar {
+  background: #394141;
+  width: 100%;
+  padding: 8px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 0.9em;
+  position: relative;
+}
+#browser-bar p {
+  text-align: center;
+}
+#browser-bar .circles {
+  border-radius: 10px;
+  height: 13px;
+  width: 13px;
+  background: #ff3434;
+  float: left;
+  margin-left: 7px;
+  margin-top: 3px;
+}
+#browser-bar .circles:nth-of-type(2) {
+  background: #ffdd33;
+}
+#browser-bar .circles:nth-of-type(3) {
+  background: #67b678;
+}
+
+.arrow {
+  position: absolute;
+  right: 3px;
+  top: 6px;
+  font-size: 1.2em;
+  color: #8e9699;
+}
+
+#content {
+  background: #454f4f;
+}
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#content #left, #content #right {
+  height: 100%;
+}
+#content #left {
+  float: left;
+  width: 75%;
+  background: #7BC087;
+}
+@media all and (max-width: 780px) {
+  #content #left {
+    width: 100%;
+  }
+}
+#content #left #map {
+  height: 388px;
+  position: relative;
+  /* background-image: url(""); */
+  background-size: cover;
+}
+#content #left #map p {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+#content #left #map .map-locator {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border: solid 2px white;
+}
+
+
+#content #right {
+  float: left;
+  width: 25%;
+  background: #454f4f;
+  font-size: 0.75em;
+  padding: 15px;
+}
+@media all and (max-width: 780px) {
+  #content #right {
+    width: 100%;
+  }
+}
+#content #right p {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#content #right a:hover {
+  color: #51B2D6;
+}
+#content #right #social {
+  display: table;
+  width: 100%;
+}
+#content #right .social {
+  display: table-cell;
+  text-align: center;
+}
+#content #right form {
+  border-top: solid thin #8e9699;
+  border-bottom: solid thin #8e9699;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+#content #right p.other {
+  font-size: 0.7;
+  margin-bottom: 5px;
+  text-transform: lowercase;
+  font-weight: 100;
+}
+#content #right p.other,
+#content #right p.other a {
+  color: #8e9699;
+}
+.ldetails{
+    background: #394141;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    color: white;
+}
+.getLocation{
+    text-transform: uppercase;
+    background: #7BC087;
+    width: 50%;
+    color: white;
+    margin-top: 5px;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    color: white;
+}
+.getLocation:hover{
+    cursor: pointer;
+    background: #58b068;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.apilink:hover{
+color: #67b678;}
